@@ -10,3 +10,16 @@
 3. Banco 
 
 ### Requerimientos 
+>Crucero 
+- Reservación 
+- Actualizar reservación 
+- Eliminar reservación 
+
+>Aereolínea 
+- Agregar pasajero 
+- Actualizar pasajero 
+- Eliminar pasajero 
+
+>Banco 
+- Realizar pago 
+- Realizar reembolso 
