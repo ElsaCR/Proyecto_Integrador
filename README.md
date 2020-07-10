@@ -85,6 +85,8 @@
 | -------- | ---- | ------ |
 | num_tarjeta | String | setNumTarjeta() / getNumTarjeta() |
 | pago_por_reservacion | int | setPagoPorReservacion() / getPagoPorReservacion() |
+### Arquitectura del Servicio Web 
+- ![](https://github.com/ElsaCR/Proyecto_Integrador/blob/master/AGENCIA_IMG/arquitectura_servicio.png)
 ### API Crucero 
 - Hacer reservacion 
   - Se ingresan los datos  para realizar la reservación
