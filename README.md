@@ -23,3 +23,14 @@
 >Banco 
 - Realizar pago 
 - Realizar reembolso 
+
+### Especificación de funciones 
+>Crucero 
+#### Reservación 
+| Atributo | Tipo | Método |
+| -------- | ---- | ------ |
+| noReservacion | String | setNoReservacion() / getNoeservacion() |
+| nombreUsuario | String | setNombreUsuario() / getNombreUsuario() |
+| fechaSalida | String | setFechaSalida() / getFechaSalida() |
+| horaSalida | String | setHoraSalida() / getHoraSalida() |
+| costo | int | setCosto() / getCosto() |
