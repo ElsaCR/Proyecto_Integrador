@@ -17,7 +17,7 @@
         </script>";
     
     }else{
-        echo"<script>alert('Ingresa el Nombre del Pasajero');
+        echo"<script>alert('Ingresa el ID de Pasajero');
         window.location.href='../html/delPasajero.html';
         </script>";
     
