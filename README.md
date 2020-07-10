@@ -12,7 +12,7 @@
 ### Requerimientos 
 >Crucero 
 - Reservación 
-- Actualizar reservación 
+- Editarr reservación 
 - Eliminar reservación 
 
 >Aereolínea 
@@ -34,3 +34,54 @@
 | fechaSalida | String | setFechaSalida() / getFechaSalida() |
 | horaSalida | String | setHoraSalida() / getHoraSalida() |
 | costo | int | setCosto() / getCosto() |
+#### Editar reservación 
+| Atributo | Tipo | Método |
+| -------- | ---- | ------ |
+| noReservacion | String | setNoReservacion() / getNoeservacion() |
+| nombreUsuario | String | setNombreUsuario() / getNombreUsuario() |
+| fechaSalida | String | setFechaSalida() / getFechaSalida() |
+| horaSalida | String | setHoraSalida() / getHoraSalida() |
+#### Eliminar reservación 
+| Atributo | Tipo | Método |
+| -------- | ---- | ------ |
+| noReservacion | String | setNoReservacion() / getNoeservacion() |
+
+>Aereolínea 
+#### Agregar pasajero 
+| Atributo | Tipo | Método |
+| -------- | ---- | ------ |
+| nombre | - | setNombre() / getNombre() |
+| destino | - | setDestino() / getDestino() |
+| coste | - | setCoste() / getCoste() |
+| sala | - | setSala() / getSala() |
+| asientofecha | - | setAsientofecha() / getAsientoFecha() |
+| avion | - | setAvion() / getAvion() |
+| hora | - | setHora() / getHora() |
+#### Editar pasajero 
+| Atributo | Tipo | Método |
+| -------- | ---- | ------ |
+| nombre | - | setNombre() / getNombre() |
+| destino | - | setDestino() / getDestino() |
+| coste | - | setCoste() / getCoste() |
+| sala | - | setSala() / getSala() |
+| asientofecha | - | setAsientofecha() / getAsientoFecha() |
+| avion | - | setAvion() / getAvion() |
+| hora | - | setHora() / getHora() |
+#### Eliminar pasajero 
+| Atributo | Tipo | Método |
+| -------- | ---- | ------ |
+| idBoleto | - | setIdBoleto() / getIdBoleto() |
+>Banco 
+#### Realizar pago 
+| Atributo | Tipo | Método |
+| -------- | ---- | ------ |
+| nombre_cliente | String | setNombreCliente() / getNombreCliente() |
+| num_tarjeta | String | setNumTarjeta() / getNumTarjeta() |
+| fecha_vencimiento | String | setFechaVencimiento() / getFechaVencimiento() |
+| condigo_cvc | int | setCodigoCvc() / getCodigoCvc() |
+| cantidad | int | setCantidad() / getCantidad() |
+#### Realizar reembolso 
+| Atributo | Tipo | Método |
+| -------- | ---- | ------ |
+| num_tarjeta | String | setNumTarjeta() / getNumTarjeta() |
+| pago_por_reservacion | int | setPagoPorReservacion() / getPagoPorReservacion() |
